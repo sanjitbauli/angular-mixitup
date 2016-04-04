@@ -6,7 +6,7 @@ bower install --save mixitup
 then download my directive and include it. 
 
 directive sould call like this:
-
+<pre>
  <div id="grid" mixitup='mixitup' class="row portfolio show-all" entities='fullList'
        defaultorder="{{defaultFilter}}"  >
     <div class="mix portfolio-item grid-item" isotope-item="isotope-item" ng-class="className($index,fullList)"  data-myorder="{{$index}}"
@@ -20,5 +20,5 @@ directive sould call like this:
       </div>
     </div>
   </div>
-  
+  </pre>
   in above code, fullList is the scope where all your data stored.
